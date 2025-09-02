@@ -2,6 +2,8 @@ a{
     text-decoration: none;
 }
 
+/*   Navbar Start   */
+
 ul,ol{
     list-style: none;
 }
@@ -32,7 +34,7 @@ ul,ol{
     background-color: transparent;
     border: 1px solid #F4F6FC33;
     color: white;
-    border-radius: 40px;
+    border-radius: 41px;
     padding: 16px 48px;
     margin-left: 48px;
     font-size: 16px;
@@ -46,3 +48,79 @@ ul,ol{
     border-color: transparent;
     color: #1B1C2B;
 }
+
+/*   Navbar End   */
+
+/*   Banner Start   */
+
+.banner{
+    background-color: #1C1E53;
+    padding-top: 126px;
+    padding-bottom: 157px;
+}
+
+.banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    width: 582px;
+    line-height: 74px;
+}
+
+.banner p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    width: 562px;
+    line-height: 28px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.banner .banner-button{
+    background-color: #FCD980;
+    border: 1px solid transparent;
+    color: #1B1C2B;
+    border-radius: 41px;
+    padding: 16px 56px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    line-height: 32px;
+    transition: .4s;
+}
+
+.banner .banner-button:hover{
+    background-color: transparent;
+    border-color: #F4F6FC33;
+    color: white;
+}
+
+.banner .banner-button-ani{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.banner .banner-button-ani i{
+    position: absolute;
+    top: 5px;
+    left: 102px;
+    transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.banner .banner-button-ani:hover i{
+    left: 126px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/*   Banner End   */
