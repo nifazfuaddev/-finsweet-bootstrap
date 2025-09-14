@@ -392,10 +392,67 @@ ul,ol{
 }
 
 .features .card .card-text{
-    color: #282938;
+    color: rgba(40, 41, 56, 0.7);
     font-size: 16px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     line-height: 28px;
 }
+
 /*   Features End   */
+
+/*   Client Start   */
+
+.client{
+    background-color: rgba(244, 246, 252, 0.5);
+    padding: 128px 0px;
+}
+
+.client h3{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 56px;
+    width: 327px;
+}
+
+.client p{
+    color: rgba(40, 41, 56, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 327px;
+}
+
+.client h4{
+    color: #282938;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    width: 843px;
+}
+
+.client .box{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    padding-top: 48px;
+}
+
+.client .box h5{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.client .box h6{
+    color: #282938;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+/*   Client End   */
