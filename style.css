@@ -528,6 +528,128 @@ ul,ol{
 
 /*   FAQ End   */
 
+/*   Inquiry Start   */
+
+.inquiry .row{
+    --bs-gutter-x: 0rem !important
+}
+
+.overlay-ani3 .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 83, 0.5);
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: .4s;
+    padding-top: 96px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.overlay-ani3 .overlay h2{
+    color: #FFFFFF;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 74px;
+    width: 464px;
+    padding-bottom: 24px;
+}
+
+.overlay-ani3 .overlay p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+}
+
+.overlay-ani3 .overlay a{
+    color: #FCD980;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+}
+
+.overlay-ani3:hover .overlay{
+    left: 0%;
+}
+
+.inquiry-content{
+    background-color: #1C1E53;
+    width: 100%;
+    height: 691px;
+    padding-top: 107px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.inquiry-content h4{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+}
+
+.inquiry-content p{
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 432px;
+    padding-top: 17px;
+}
+
+.inquiry-content input{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 18px 32px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.inquiry-content button{
+    color: #1B1C2B;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    background-color: #FCD980;
+    padding: 16px 150px;
+    border: 0px;
+    border-radius: 41px;
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    border: 1px solid #FCD980;
+    transition: .3s;
+}
+
+.inquiry-content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.inquiry-content .inquiry-button-ani{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+    margin-left: 133px;
+}
+
+/*   Inquiry End   */
+
 /*   Blog Start   */
 
 .blog{
