@@ -458,6 +458,76 @@ ul,ol{
 
 /*   Client End   */
 
+/*   FAQ Start   */
+
+.faq{
+    padding: 128px 0px;
+}
+
+.faq h3{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 56px;
+    width: 328px;
+}
+
+.faq a{
+    color: #2405F2;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+}
+
+.accordion-button{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 32px 0px;
+    background-color: transparent !important;
+}
+
+.accordion-button span{
+    color: #2405F2;
+    padding-left: 27px;
+    padding-right: 59px;
+}
+
+.accordion-body{
+    color: rgba(40, 41, 56, 0.87);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 0px 92px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+
+.accordion-item{
+    border: 0px !important;
+}
+
+.accordion-button.collapsed{
+    border-top: 1px solid #ECECF1 !important;
+}
+
+.accordion-button::after{
+    background-image: none !important;
+    content: "+";
+    transform: translateY(-20%) !important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none !important;
+    content: "-";
+    transform: translateY(-20%) !important;
+}
+
+/*   FAQ End   */
+
 /*   Blog Start   */
 
 .blog{
