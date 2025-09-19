@@ -707,3 +707,96 @@ ul,ol{
 }
 
 /*   Blog End   */
+
+/*   Contact Start   */
+
+.contact{
+    background-color: #1C1E53;
+    padding-top: 96px;
+}
+
+.contact img{
+    width: 156px;
+    height: 38px;
+}
+
+.contact p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 399px;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+
+.contact .info{
+    background-color: #FCD980;
+    width: 517px;
+    height: 95px;
+    padding-top: 17px;
+    padding-left: 37px;
+    padding-bottom: 16px;
+    display: flex;
+}
+
+.contact .info-left{
+    width: 50%;
+}
+
+.contact .info-left h6{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact .info-left p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact .info-right h6{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact .info-right p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.contact .contact-right h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact .contact-right p{
+    color: rgba(244, 246, 252, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 14px;
+    padding-bottom: 28px;
+}
+
+.contact .contact-icon{
+    display: flex;
+}
+
+.contact .contact-icon i{
+    color: white;
+    margin-right: 27px;
+}
+
+/*   Contact End   */
